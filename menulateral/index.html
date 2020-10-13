@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Lateral</title>
+	<link rel="stylesheet" href="../fontawesome/css/font-awesome.css">
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<div id="sidemenu" class="menu-collapsed">
+		<div id="header">
+			<div id="title">
+				<span>Vida MRR</span>
+			</div>
+			<div id="menu-btn">
+				<div class="btn-hamburger"></div>
+				<div class="btn-hamburger"></div>
+				<div class="btn-hamburger"></div>
+			</div>
+		</div>
+
+		<div id="profile">
+			<div id="photo">
+				<img src="../img/images%20%281%29.jpg" alt="">
+			</div>
+			<div id="name"><span>Marco Rivas</span> </div>
+		</div>
+
+		<div id="menu-items">
+			<div class="item">
+				<a href="#">
+					<div class="icon">
+						<img src="../img/Cloud-icon.png" alt="">
+					</div>
+					<div class="title"><span>Cloud</span></div>
+				</a>
+			</div>
+
+			<div class="item separator">
+			</div>
+
+			<div class="item">
+				<a href="#">
+					<div class="icon">
+						<img src="../img/Cloud-icon.png" alt="">
+					</div>
+					<div class="title"><span>Cloud</span></div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="main-container">
+		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, natus animi optio excepturi, ipsum ipsa. Earum maiores sint reprehenderit dolorem mollitia quo fuga. Ut quae tempora consequuntur necessitatibus, sunt libero?
+	</div>
+
+
+	<script>
+	const btn = document.querySelector('#menu-btn');
+	const menu = document.querySelector('#sidemenu');
+	btn.addEventListener('click', e =>{
+		menu.classList.toggle('menu-expanded');
+		menu.classList.toggle('menu-collapsed');
+
+		document.querySelector('body').classList.toggle('body-expanded');
+		});
+	</script>
+</body>
+</html>

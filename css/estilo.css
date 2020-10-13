@@ -1,0 +1,81 @@
+:root{
+	--primary: #0b524b;
+	--light: #ffffff;
+	--light-blue: #f5f6fa;
+	--gray: #eff2f7;
+}
+
+.bg-light{
+	background-color: var(--light) !important;
+}
+
+.btn-primary{
+	background-color: rgba(0, 123, 255, .1) !important;
+	border: 0;
+}
+
+<button class="btn btn-primary">Primary</button>
+
+#sidebar-container{
+	min-height: 100vh;
+	transition: margin .25s ease-in-out;
+}
+
+#sidebar-container .logo{
+	padding: .875rem 1.25rem;
+	font-size: 1.2rem;
+}
+
+#sidebar-container .menu{
+	width: 18rem;
+
+}
+
+
+
+/**/
+.btn-person1 { 
+  color: #408FDE; 
+  background-color: #FFFFFF; 
+  border-color: #CCC7E3; 
+} 
+ 
+.btn-person1:hover, 
+.btn-person1:focus, 
+.btn-person1:active, 
+.btn-person1.active, 
+.open .dropdown-toggle.btn-person1 { 
+  color: #408FDE; 
+  background-color: #F0F3FF; 
+  border-color: #CCC7E3; 
+} 
+ 
+.btn-person1:active, 
+.btn-person1.active, 
+.open .dropdown-toggle.btn-person1 { 
+  background-image: none; 
+} 
+ 
+.btn-person1.disabled, 
+.btn-person1[disabled], 
+fieldset[disabled] .btn-person1, 
+.btn-person1.disabled:hover, 
+.btn-person1[disabled]:hover, 
+fieldset[disabled] .btn-person1:hover, 
+.btn-person1.disabled:focus, 
+.btn-person1[disabled]:focus, 
+fieldset[disabled] .btn-person1:focus, 
+.btn-person1.disabled:active, 
+.btn-person1[disabled]:active, 
+fieldset[disabled] .btn-person1:active, 
+.btn-person1.disabled.active, 
+.btn-person1[disabled].active, 
+fieldset[disabled] .btn-person1.active { 
+  background-color: #FFFFFF; 
+  border-color: #CCC7E3; 
+} 
+ 
+.btn-person1 .badge { 
+  color: #FFFFFF; 
+  background-color: #408FDE; 
+}
